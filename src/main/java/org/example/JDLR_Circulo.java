@@ -1,5 +1,6 @@
 package org.example;
 
+
 public class JDLR_Circulo {
     private int id;
 
@@ -48,6 +49,12 @@ public class JDLR_Circulo {
                 ", color='" + color + '\'' +
                 '}';
     }
+
+    /**
+     *
+     * @param radio
+     * @return
+     */
     private static double getAreaCirculo(double radio) {
         double areaCirculo = Math.PI * radio * radio;
         return areaCirculo;

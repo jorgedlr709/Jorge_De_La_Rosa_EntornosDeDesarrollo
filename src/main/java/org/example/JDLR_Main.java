@@ -1,5 +1,7 @@
 package org.example;
 
+
+
 public class JDLR_Main {
     public static void main(String[] args) {
         // Instanciamos un rectángulo y un círculo
@@ -26,16 +28,33 @@ public class JDLR_Main {
         System.out.println("Círculo: " + circulo1);
     }
 
+    /**
+     *
+     * @param areaRectangulo
+     * @param areaCirculo
+     * @return
+     */
     private static double getDiferencia(double areaRectangulo, double areaCirculo) {
         double diferencia = areaRectangulo - areaCirculo;
         return diferencia;
     }
 
+    /**
+     *
+     * @param radio
+     * @return
+     */
     private static double getAreaCirculo(double radio) {
         double areaCirculo = Math.PI * radio * radio;
         return areaCirculo;
     }
 
+    /**
+     *
+     * @param ladoA
+     * @param ladoB
+     * @return
+     */
     private static double getAreaRectangulo(double ladoA, double ladoB) {
         double areaRectangulo = ladoA * ladoB;
         return areaRectangulo;
