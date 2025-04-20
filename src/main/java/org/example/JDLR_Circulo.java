@@ -46,6 +46,6 @@ public class JDLR_Circulo {
                 "id=" + id +
                 ", radio=" + radio +
                 ", color='" + color + '\'' +
-                '}'
+                '}';
     }
 }
