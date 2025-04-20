@@ -57,4 +57,8 @@ public class JDRL_Rectangulo {
                 ", color='" + color + '\'' +
                 '}';
     }
+    private static double getAreaRectangulo(double ladoA, double ladoB) {
+        double areaRectangulo = ladoA * ladoB;
+        return areaRectangulo;
+    }
 }

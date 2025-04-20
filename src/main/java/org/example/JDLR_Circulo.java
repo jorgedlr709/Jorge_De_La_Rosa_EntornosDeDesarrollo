@@ -48,4 +48,8 @@ public class JDLR_Circulo {
                 ", color='" + color + '\'' +
                 '}';
     }
+    private static double getAreaCirculo(double radio) {
+        double areaCirculo = Math.PI * radio * radio;
+        return areaCirculo;
+    }
 }
